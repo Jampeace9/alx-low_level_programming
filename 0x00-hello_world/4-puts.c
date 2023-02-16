@@ -1,8 +1,8 @@
-#include <stdio.h>
-/*
- * main - print a line of code using puts
+#include<stdio.h>
+/**
+ * main - is the entry point for the program.
  *
- * Return: 0
+ * Return: zero if no error, Non-zero value if errors
  */
 int main(void)
 {
