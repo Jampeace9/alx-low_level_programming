@@ -1,23 +1,13 @@
-#include <stdio.h>
-
+#include "main.h"
 
 /**
- * main -To add all multiples of 5 or 3 below 1024
- *       together.
+ * add - Adds two integers.
+ * @n1: The first integer to be added.
+ * @n2: The second integer to be added.
  *
- * Return: 0 if succesful
+ * Return: The result of the addition.
  */
-int main(void)
+int add(int n1, int n2)
 {
-	int x, total = 0;
-
-	for (x = 0; x <= 1023; x++)
-	{
-		if ((x % 3) == 0 || (x % 5) == 0)
-			total = total + x;
-	}
-
-	printf("%d\n", total);
-
-	return (0);
+	return (n1 + n2);
 }
